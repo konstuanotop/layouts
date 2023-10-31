@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    </link>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <title>2rism</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <img class="header_logo" src="assets/img/header_logo.svg" width="88" height="36" alt="logo_2rism">
+
+                <nav class="nav">
+                    <a class="nav__link active" href="#">Home</a>
+                    <a class="nav__link" href="#">Hotels</a>
+                    <a class="nav__link" href="#">Restaurants</a>
+                    <a class="nav__link" href="#">Tours</a>
+                    <a class="nav__link" href="#">Destinations</a>
+                    <a class="nav__link" href="#">Activities</a>
+                    <a class="nav__link" href="#">Contact</a>
+                </nav>
+
+                <div class="header__user">
+                    <div class="header__user-info">
+                        <p class="header__holla">Holla,</p>
+                        <p class="header__name">Ales Nesetril</p>
+                    </div>
+                    <img class="header__photo" src="assets/img/login_photo.png" width="48" height="48"
+                        alt="photo Ales Nesetril">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="intro">
+        <div class="container">
+            <div class="intro__inner">
+                <h1 class="intro__title">Discover the most engaging places</h1>
+                <a class="btn btn__intro" href="#"><img class="btn__icon" src="assets/img/globus.svg">  Discover on
+                    3D Globe</a>
+            </div>
+        </div>
+
+        <div class="search">
+            <div class="container">
+                <div class="search__inner">
+                    <div class="search__item">
+                        <img class="search__icon" src="assets/img/icon_map.svg" width="24" height="24" alt="icon map">
+                        <div class="search__title">
+                            Location
+                        </div>
+                        <input class="input input__map" type="text" placeholder="Explore nearby destinations">
+                    </div>
+
+                    <div class="search__item">
+                        <img class="search__icon" src="assets/img/icon_bicycle.svg" width="24" height="24"
+                            alt="icon map">
+                        <div class="search__title">
+                            Activity
+                        </div>
+                        <select class="select">
+                            <option value="1">All activities</option>
+                            <option value="2">Bicycle</option>
+                        </select>
+                    </div>
+
+                    <div class="search__item">
+                        <img class="search__icon" src="assets/img/icon_calendar.svg" width="24" height="24"
+                            alt="icon map">
+                        <div class="search__title">
+                            When
+                        </div>
+                        <input class="input input__date" type="text" placeholder="Choose a Date">
+                    </div>
+
+                    <div class="search__item">
+                        <img class="search__icon" src="assets/img/icon_people.svg" width="24" height="24"
+                            alt="icon map">
+                        <div class="search__title">
+                            Guests
+                        </div>
+                        <select class="select">
+                            <option value="1">1 guest</option>
+                            <option value="2">2 guest</option>
+                        </select>
+                    </div>
+                    <button class="btn btn__search" type="submit">
+                        <img class="search__btn-icon" src="assets/img/icon_search.svg" width="24" height="24"
+                            alt="icon_search">
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section section__popular">
+        <div class="container">
+            <div class="section__header">
+                <h2 class="section__title">
+                    Popular Destinations
+                </h2>
+            </div>
+
+            <div class="popular">
+                <div class="popular__inner">
+                    <div class="popular__item">
+                        <img class="popular_image" src="assets/img/popular_1.jpg" width="203" height="181"
+                            alt="photo Big Sur">
+                        <p class="popular__name">Big Sur</p>
+                        <p class="popular__space">California, USA</p>
+                    </div>
+
+                    <div class="popular__item">
+                        <img class="popular_image" src="assets/img/popular_2.jpg" width="203" height="181"
+                            alt="photo Big Sur">
+                        <p class="popular__name">Prescott</p>
+                        <p class="popular__space">Arizona, USA</p>
+                    </div>
+
+                    <div class="popular__item">
+                        <img class="popular_image" src="assets/img/popular_3.jpg" width="203" height="181"
+                            alt="photo Big Sur">
+                        <p class="popular__name">Fort Mayers</p>
+                        <p class="popular__space">Florida, USA</p>
+                    </div>
+
+                    <div class="popular__item">
+                        <img class="popular_image" src="assets/img/popular_4.jpg" width="203" height="181"
+                            alt="photo Big Sur">
+                        <p class="popular__name">Tucson</p>
+                        <p class="popular__space">Arizona, USA</p>
+                    </div>
+
+                    <div class="popular__item">
+                        <img class="popular_image" src="assets/img/popular_5.jpg" width="203" height="181"
+                            alt="photo Big Sur">
+                        <p class="popular__name">St. Joseph</p>
+                        <p class="popular__space">Michigan, USA</p>
+                    </div>
+
+                    <div class="popular__item">
+                        <img class="popular_image" src="assets/img/popular_6.jpg" width="203" height="181"
+                            alt="photo Big Sur">
+                        <p class="popular__name">Madrid</p>
+                        <p class="popular__space">Spain</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="section section__hotels">
+        <div class="container">
+            <div class="section__header">
+                <h2 class="section__title">
+                    Hotels and Restaurants
+                </h2>
+                <a class="btn btn__section">View all <img class="btn__icon" src="assets/img/icon_arrow.svg" width="20"
+                        height="20" alt="icon arrow"></a>
+            </div>
+
+            <div class="hotels">
+                <div class="hotels__inner">
+                    <div class="hotels__item">
+                        <img class="hotels__image" src="assets/img/hotel_1.jpg" width="320" height="380"
+                            alt="photo Monastero Santa Rosa Hotel">
+                        <p class="hotels__name">Monastero Santa Rosa Hotel & Spa</p>
+                        <div class="hotels__description">
+                            <p class="hotels__space">Salerno, Italy</p>
+                            <img class="hotels__stars" src="assets/img/icon_5_stars.svg" width="88" height="16"
+                                alt="icon 5 stars">
+                        </div>
+                    </div>
+
+                    <div class="hotels__item">
+                        <img class="hotels__image" src="assets/img/hotel_2.jpg" width="320" height="380"
+                            alt="photo Grand Hotel Tremezzo">
+                        <p class="hotels__name">Grand Hotel Tremezzo</p>
+                        <div class="hotels__description">
+                            <p class="hotels__space">Lake Como, Italy</p>
+                            <img class="hotels__stars" src="assets/img/icon_3_stars.svg" width="88" height="16"
+                                alt="icon 3 stars">
+                        </div>
+                    </div>
+
+                    <div class="hotels__item">
+                        <img class="hotels__image" src="assets/img/hotel_3.jpg" width="320" height="380"
+                            alt="photo The Oberoi Udaivilas, Udaipur">
+                        <p class="hotels__name">The Oberoi Udaivilas, Udaipur</p>
+                        <div class="hotels__description">
+                            <p class="hotels__space">Udaipur, India</p>
+                            <img class="hotels__stars" src="assets/img/icon_4_stars.svg" width="88" height="16"
+                                alt="icon 4 stars">
+                        </div>
+                    </div>
+
+                    <div class="hotels__item">
+                        <img class="hotels__image" src="assets/img/hotel_4.jpg" width="320" height="380"
+                            alt="photo AKA Beverly Hills">
+                        <p class="hotels__name">AKA Beverly Hills</p>
+                        <div class="hotels__description">
+                            <p class="hotels__space">Los Angeles, United States</p>
+                            <img class="hotels__stars" src="assets/img/icon_3_stars.svg" width="88" height="16"
+                                alt="icon 3 stars">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section section__travel">
+        <div class="container">
+            <div class="section__header">
+                <h2 class="section__title">
+                    Travel Tips and Advice
+                </h2>
+                <a class="btn btn__section">View all <img class="btn__icon" src="assets/img/icon_arrow.svg" width="20"
+                        height="20" alt="icon arrow"></a>
+            </div>
+
+            <div class="travel">
+                <div class="travel__inner">
+                    <div class="travel__item">
+                        <img class="travel__photo" src="assets/img/travel_1.jpg" width="320" height="380"
+                            alt="photo girl in city">
+                    </div>
+                    <div class="travel__item">
+                        <h3 class="travel__title">East Village Ice Cream Crawl</h3>
+                        <p class="travel__text">We will stop at five different world-class ice cream shops on this 1.5
+                            mile 1.5 hour tour. At each ice cream store we'll explore the story behind the business and
+                            see what makes the ice cream unique as you savor every…</p>
+
+                        <div class="travel__info">
+                            <div class="travel__day">Today</div>
+                            <div class="travel__author">Maria Philips</div>
+                            <div class="travel__comments">2</div>
+                        </div>
+                    </div>
+
+                    <div class="travel__item">
+                        <img class="travel__photo" src="assets/img/travel_2.jpg" width="320" height="380"
+                            alt="photo girl in city">
+                    </div>
+                    <div class="travel__item">
+                        <h3 class="travel__title">Brooklyn Bridge cinematic photo walk</h3>
+                        <p class="travel__text">This experience takes place at the Brooklyn Bridge Park and Brooklyn
+                            Bridge, but I’m always open to capture clients at different locations upon request for an
+                            additional charge.</p>
+
+                        <div class="travel__info">
+                            <div class="travel__day">Today</div>
+                            <div class="travel__author">James Calzoni</div>
+                            <div class="travel__comments">17</div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section section__activities">
+        <div class="container">
+            <div class="section__header">
+                <h2 class="section__title">
+                    Activities
+                </h2>
+                <a class="btn btn__section">View all <img class="btn__icon" src="assets/img/icon_arrow.svg" width="20"
+                        height="20" alt="icon arrow"></a>
+            </div>
+
+            <div class="activities">
+                <div class="activities__inner">
+                    <div class="activities__item">
+                        <img class="activities__photo" src="assets/img/activities_1.jpg" width="320" height="380"
+                            alt="photo Sailing">
+                        <div class="activities__name">Sailing</div>
+                    </div>
+
+                    <div class="activities__item">
+                        <img class="activities__photo" src="assets/img/activities_2.jpg" width="320" height="380"
+                            alt="photo Climbing">
+                        <div class="activities__name">Climbing</div>
+                    </div>
+
+                    <div class="activities__item">
+                        <img class="activities__photo" src="assets/img/activities_3.jpg" width="320" height="380"
+                            alt="photo Skiing">
+                        <div class="activities__name">Skiing</div>
+                    </div>
+
+                    <div class="activities__item">
+                        <img class="activities__photo" src="assets/img/activities_4.jpg" width="320" height="380"
+                            alt="photo Hiking">
+                        <div class="activities__name">Hiking</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="section section__about">
+        <div class="container">
+            <div class="about">
+                <div class="about__inner">
+                    <div class="about__item">
+                        <h2 class="about__title">About Us</h2>
+                        <p class="about__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a
+                            sapien justo. Nulla facilisis tristique imperdiet. Nullam a placerat odio. Sed in ex augue.
+                            Aliquam porta consectetur lorem sit amet ultrices. Class aptent taciti sociosqu ad litora
+                            torquent per conubia nostra, per inceptos himenaeos.</p>
+                        <a class="btn btn__about">Read more <img class="btn__icon" src="assets/img/icon_arrow.svg"
+                                width="20" height="20" alt="icon arrow"></a>
+                    </div>
+                    <div class="about__item">
+                        <img class="about__photo" src="assets/img/about_photo.jpg" width="556" height="488"
+                            alt="photo joyful people">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__item">
+                    <div class="footer__title">
+                        <img class="footer_logo" src="assets/img/footer_logo.svg" width="88" height="36"
+                            alt="logo_2rism">
+                        <p class="footer__text">We always make our customers happy by providing as many choises as
+                            possible</p>
+                        <div class="footer__icons">
+                            <img class="footer__icon" src="assets/img/icon_facebook.svg" width="32" height="32"
+                                alt="icon facebook">
+                            <img class="footer__icon" src="assets/img/icon_twitter.svg" width="32" height="32"
+                                alt="icon facebook">
+                            <img class="footer__icon" src="assets/img/icon_instagram.svg" width="32" height="32"
+                                alt="icon facebook">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer__item">
+                    <div class="footer__title">
+                        About
+                    </div>
+                    <p class="footer__text">About Us</p>
+                    <p class="footer__text">Features</p>
+                    <p class="footer__text">News</p>
+                    <p class="footer__text">Menu</p>
+                </div>
+
+                <div class="footer__item">
+                    <div class="footer__title">
+                        Company
+                    </div>
+                    <p class="footer__text">Why 2rism</p>
+                    <p class="footer__text">Partner With Us</p>
+                    <p class="footer__text">FAQ</p>
+                    <p class="footer__text">Blog</p>
+                </div>
+
+                <div class="footer__item">
+                    <div class="footer__title">
+                        Support
+                    </div>
+                    <p class="footer__text">Account</p>
+                    <p class="footer__text">Support Center</p>
+                    <p class="footer__text">Feedback</p>
+                    <p class="footer__text">Contact Us</p>
+                </div>
+
+                <div class="footer__item">
+                    <div class="footer__title">
+                        Subscribe on our destination review newsletters
+                    </div>
+                    <form class="subscribe subscribe__floating" action="/" method="post">
+                        <input class="subscribe__input" type="email" id="name" name="name" value="johndoe@gmail.com">
+                        <label class="subscribe__label" for="name">Your Email</label>
+                        <button class="btn btn__subscribe" type="submit"><img class="subscribe__icon"
+                                src="assets/img/arrow_white.svg" width="16" height="16" alt="arrow right"></button>
+                    </form>
+                </div>
+
+
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>

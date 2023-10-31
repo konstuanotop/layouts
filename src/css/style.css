@@ -1,0 +1,85 @@
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+html,
+body {
+    height: 100%;
+    line-height: 1;
+}
+
+body {
+    font-size: 12px;
+    color: #000000;
+}
+
+.wrapper {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    background-color: #201d1d;
+}
+
+.main {
+    flex: 1 1 auto;
+}
+
+.header {
+    background-color: rgb(146, 149, 152);
+    padding: 100px 0;
+}
+
+.header__title {
+    text-align: center;
+    font-size: 64px;
+}
+
+.portfolio__main {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.list-portfolio__item {
+    margin: 50px 0;
+}
+
+.list-portfolio__link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 48px;
+    transition: all 0.3s ease 0s;
+}
+
+.list-portfolio__link:hover {
+    color: #5c5656;
+}

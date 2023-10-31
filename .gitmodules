@@ -1,0 +1,11 @@
+[submodule "html/2rism"]
+    path = html/2rism
+    url = https://github.com/konstuanotop/portfolio.git
+
+[submodule "html/Feather"]
+    path = html/Feather
+    url = https://github.com/konstuanotop/portfolio.git
+
+[submodule "html/aperture"]
+    path = html/aperture
+    url = https://github.com/konstuanotop/portfolio.git
